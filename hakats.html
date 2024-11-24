@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة السكربتات</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* تنسيقات عامة */
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            background-color: #121212; /* خلفية سوداء داكنة */
+            color: #ffffff; /* النص أبيض */
+        }
+
+        /* الشريط العلوي */
+        .navbar {
+            background-color: #1f1f1f; /* شريط علوي رمادي غامق */
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar h1 {
+            color: #ffd700; /* لون ذهبي */
+            font-size: 1.8rem;
+            margin: 0;
+        }
+
+        .navbar a {
+            color: #ffd700; /* روابط ذهبية */
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ff5733; /* لون برتقالي عند التمرير */
+        }
+
+        /* القسم الرئيسي */
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h1 {
+            color: #ffd700; /* العنوان باللون الذهبي */
+            font-size: 2.5rem;
+            text-shadow: 0 2px 5px rgba(255, 215, 0, 0.7);
+            margin-bottom: 20px;
+        }
+
+        /* تصميم البطاقات */
+        .script-card {
+            display: inline-block;
+            width: 280px;
+            margin: 15px;
+            padding: 20px;
+            background-color: #1f1f1f; /* خلفية رمادية داكنة */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .script-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(255, 215, 0, 0.7); /* توهج ذهبي عند التمرير */
+        }
+
+        .script-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 2px solid #ffd700; /* إطار ذهبي للصورة */
+        }
+
+        .script-card h3 {
+            font-size: 1.5rem;
+            color: #ffd700; /* العنوان ذهبي */
+            margin-bottom: 10px;
+        }
+
+        .script-card p {
+            font-size: 1rem;
+            color: #ddd; /* نص رمادي فاتح */
+        }
+
+        .script-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ffd700;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .script-card a:hover {
+            background-color: #ff5733;
+            color: #fff;
+        }
+
+        /* تأثير النقر */
+        .click-effect {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(255, 87, 51, 0.7);
+            pointer-events: none;
+            animation: click-effect 0.5s ease-out forwards;
+        }
+
+        @keyframes click-effect {
+            from {
+                opacity: 1;
+                transform: scale(1);
+            }
+            to {
+                opacity: 0;
+                transform: scale(3);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <div class="navbar">
+        <h1>موقع الهاكات</h1>
+        <div>
+            <a href="index.html">الرئيسية</a>
+            <a href="scripts.html">السكربتات</a>
+            <a href="hakats.html">الهاكات</a>
+        </div>
+    </div>
+</html>
+</body>
+</html>
+<div class="script-card">
+    <img src="image.png" alt="صورة هاك Delta">
+    <h3>هاك Delta</h3>
+    <p>نسخة Delta لتشغيل السكربتات والألعاب بسهولة.</p>
+    <a href="https://www.mediafire.com/file/rxrqs3y4gc6ff79/Delta-2.650.742.apk/file" target="_blank">تحميل الهاك</a>
+</div>
